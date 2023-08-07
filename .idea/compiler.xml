@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="stomp-java-angular-frontend" />
+        <module name="backend" />
+        <module name="stomp-java-angular-backend" />
+        <module name="frontend" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="stomp-java-angular" target="17" />
+      <module name="stomp-java-angular (1) (com.amitthk.stomp.java.angular.backend)" target="17" />
+      <module name="stomp-java-angular (2) (com.amitthk.stomp.java.angular.frontend)" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="backend" options="-parameters" />
+      <module name="frontend" options="-parameters" />
+      <module name="stomp-java-angular" options="-parameters" />
+      <module name="stomp-java-angular (1) (com.amitthk.stomp.java.angular.backend)" options="-parameters" />
+      <module name="stomp-java-angular (2) (com.amitthk.stomp.java.angular.frontend)" options="-parameters" />
+      <module name="stomp-java-angular-backend" options="-parameters" />
+      <module name="stomp-java-angular-frontend" options="-parameters" />
+    </option>
+  </component>
+</project>
